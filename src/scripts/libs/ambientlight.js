@@ -1897,6 +1897,10 @@ Video ready state: ${readyStateToString(videoElem?.readyState)}`);
       !!this.settings.immersiveHeader
     );
     html.toggleAttribute(
+      'data-ambientlight-hide-wide-video-info',
+      !!this.settings.hideWideVideoInfo
+    );
+    html.toggleAttribute(
       'data-ambientlight-transparent-side-panels',
       !!this.settings.transparentSidePanels
     );

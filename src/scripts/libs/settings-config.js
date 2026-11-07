@@ -247,7 +247,7 @@ const SettingsConfig = [
     label: '隱藏捲軸',
     type: 'checkbox',
     advanced: true,
-    default: false,
+    default: true,
   },
   {
     type: 'section',
@@ -751,6 +751,13 @@ const SettingsConfig = [
     name: 'immersiveTheaterView',
     label: '寬螢幕模式時隱藏頁首',
     description: '頁面在最上方時',
+    type: 'checkbox',
+    default: false,
+  },
+  {
+    name: 'hideWideVideoInfo',
+    label: '寬螢幕模式時隱藏標題與 UP 主資訊',
+    description: '保留原有位置，滑鼠移入時淡入顯示',
     type: 'checkbox',
     default: false,
   },

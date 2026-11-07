@@ -208,8 +208,7 @@
 
 
 html {
-  &[data-ambientlight-hide-scrollbar],
-  &[data-ambientlight-immersive] {
+  &[data-ambientlight-hide-scrollbar] {
     scrollbar-width: none !important;
     body::-webkit-scrollbar {
       display: none !important;
@@ -569,6 +568,22 @@ html[data-ambientlight-enabled] {
   &[data-ambientlight-immersive] [data-ambientlight-masthead].at-top {
     .bili-header__bar:not(:hover):not(:focus-within) {
       opacity: 0;
+    }
+  }
+
+  /* Hide the title and uploader in widescreen without changing their layout.
+     Hovering or keyboard focus brings the information back. */
+  &[data-ambientlight-hide-wide-video-info] body:has(.bpx-player-container[data-screen='wide']) {
+    .video-info-container,
+    .up-panel-container,
+    .up-info-container {
+      opacity: 0 !important;
+      transition: opacity 0.25s ease-in-out !important;
+
+      &:hover,
+      &:focus-within {
+        opacity: 1 !important;
+      }
     }
   }
 

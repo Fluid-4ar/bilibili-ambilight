@@ -1,9 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "Bilibili 環境光",
-  "description": "在 Bilibili 影片周圍加上環境光，看影片更有沉浸感！（非官方擴充功能，改編自 Wessel Kroos 的 Ambient light for YouTube）",
+  "name": "Bilibili Ambilight - Custom",
+  "description": "Bilibili 環境光的個人修改版，支援寬螢幕標題與 UP 主資訊淡入顯示。（基於 iceorange-dev 的開源專案）",
   "version": "0.0.0",
-  "homepage_url": "https://github.com/iceorange-dev/bilibili-ambilight",
+  "homepage_url": "https://github.com/IvarLiu/bilibili-ambilight",
   "icons": {
     "16": "images/icon-16.png",
     "32": "images/icon-32.png",

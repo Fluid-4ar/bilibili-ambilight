@@ -176,6 +176,8 @@ export default {
   '寬螢幕': 'Widescreen',
   '寬螢幕與全螢幕': 'Widescreen and fullscreen',
   '寬螢幕模式時隱藏頁首': 'Hide the page header in widescreen mode',
+  '寬螢幕模式時隱藏標題與 UP 主資訊': 'Hide title and uploader information in widescreen mode',
+  '保留原有位置，滑鼠移入時淡入顯示': 'Keep the layout; fade in on hover',
   '彈幕列表、選集、關注與訂閱按鈕。透明度可在「頁面內容 > 按鈕與區塊背景不透明度」調整': 'Danmaku list, episode list, follow and subscribe buttons. Opacity can be adjusted in "Page content > Button and block background opacity"',
   '彈幕輸入列融入背景': 'Blend the danmaku input bar into the background',
   '影片': 'Video',
