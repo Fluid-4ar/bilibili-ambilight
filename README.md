@@ -1,10 +1,10 @@
 # Bilibili 環境光（Ambient light for Bilibili）
 
-> **Ivar 個人修改版（0.1.5）**。Fork 自 [iceorange-dev/bilibili-ambilight](https://github.com/iceorange-dev/bilibili-ambilight)，保留原作者署名與 MIT 授權。
+> **Fluid-4ar 個人修改版（0.1.5）**。Fork 自 [iceorange-dev/bilibili-ambilight](https://github.com/iceorange-dev/bilibili-ambilight)，保留原作者署名與 MIT 授權。
 >
 > 個人修改：在「沉浸」設定增加「寬螢幕模式時隱藏標題與 UP 主資訊」開關（滑鼠移入淡入顯示，保留原布局）；預設隱藏影片頁面捲軸，避免捲軸出現時畫面左右跳動。擴充功能名稱改為 **Bilibili Ambilight - Custom**，方便在 Edge 中區分原版。
 >
-> **安裝修改版（Edge / Chrome）**：從本 Fork 的 [Releases](https://github.com/IvarLiu/bilibili-ambilight/releases) 下載 `bilibili-ambilight-0.1.5-chrome.zip`，解壓後在 `edge://extensions` 啟用「開發人員模式」並「載入解壓縮的擴充功能」。下面的使用者腳本安裝網址仍指向上游，並非本修改版。
+> **安裝修改版（Edge / Chrome）**：從本 Fork 的 [Releases](https://github.com/Fluid-4ar/bilibili-ambilight/releases) 下載 `bilibili-ambilight-0.1.5-chrome.zip`，解壓後在 `edge://extensions` 啟用「開發人員模式」並「載入解壓縮的擴充功能」。下面的使用者腳本安裝網址仍指向上游，並非本修改版。
 
 在 Bilibili 影片周圍加上環境光（Ambilight）效果。同一個原始碼可以建置成兩種版本：
 

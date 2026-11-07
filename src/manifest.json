@@ -3,7 +3,7 @@
   "name": "Bilibili Ambilight - Custom",
   "description": "Bilibili 環境光的個人修改版，支援寬螢幕標題與 UP 主資訊淡入顯示。（基於 iceorange-dev 的開源專案）",
   "version": "0.0.0",
-  "homepage_url": "https://github.com/IvarLiu/bilibili-ambilight",
+  "homepage_url": "https://github.com/Fluid-4ar/bilibili-ambilight",
   "icons": {
     "16": "images/icon-16.png",
     "32": "images/icon-32.png",
